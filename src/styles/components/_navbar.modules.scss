@@ -12,14 +12,16 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, var.$color-background 55%);
   padding: var.$navbar-padding;
   padding: var.$padding-safe;
-  width: var.$navbar-width;
+  width: 0; //var.$navbar-width
   height: var.$navbar-height;
   color: var.$color-foreground;
   transition: background-color 0.25s;
 
   .button {
     flex: 0 1 auto;
-    padding: var.$navbar-button-padding;
+    // margin: var.$navbar-button-padding;
+    padding: 1rem;
+    margin: var.$navbar-button-padding;
     line-height: var.$navbar-button-line-height;
     color: var.$color-foreground;
     font-size: var.$navbar-font-size;
