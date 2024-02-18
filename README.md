@@ -1,5 +1,5 @@
-# Team 4788, Can't Control's Team Website 
+# fork of frc curtin 4788 website.
 
-## Contributing 
+## no contributing for you
 
-Look in at contributing in .github to get started! 
+why are you still here
